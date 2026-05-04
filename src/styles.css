@@ -1,0 +1,16 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+  color: #1a202c;
+  -webkit-font-smoothing: antialiased;
+}
+
+.form-control,
+.form-select {
+  font-family: inherit;
+}

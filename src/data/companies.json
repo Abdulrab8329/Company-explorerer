@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "Google",
+    "location": "USA",
+    "industry": "Tech",
+    "description": "Google builds internet products across search, cloud, advertising, maps, video, and mobile platforms, with a strong focus on large-scale engineering and AI research.",
+    "founded": 1998,
+    "employees": "180,000+",
+    "website": "https://google.com"
+  },
+  {
+    "id": 2,
+    "name": "TCS",
+    "location": "India",
+    "industry": "IT Services",
+    "description": "Tata Consultancy Services delivers enterprise software, consulting, cloud transformation, and managed services for clients across banking, retail, telecom, and manufacturing.",
+    "founded": 1968,
+    "employees": "600,000+",
+    "website": "https://www.tcs.com"
+  },
+  {
+    "id": 3,
+    "name": "Infosys",
+    "location": "India",
+    "industry": "IT Services",
+    "description": "Infosys provides digital transformation, application development, data, cloud, and business process services to global organizations modernizing legacy systems.",
+    "founded": 1981,
+    "employees": "300,000+",
+    "website": "https://www.infosys.com"
+  },
+  {
+    "id": 4,
+    "name": "Amazon",
+    "location": "USA",
+    "industry": "E-Commerce",
+    "description": "Amazon operates large e-commerce, logistics, cloud, devices, and digital media businesses, serving both consumers and enterprise customers at global scale.",
+    "founded": 1994,
+    "employees": "1,500,000+",
+    "website": "https://www.amazon.com"
+  },
+  {
+    "id": 5,
+    "name": "Wipro",
+    "location": "India",
+    "industry": "IT Services",
+    "description": "Wipro works across consulting, engineering, cloud, cybersecurity, and business operations, helping enterprises manage technology and long-term modernization programs.",
+    "founded": 1945,
+    "employees": "240,000+",
+    "website": "https://www.wipro.com"
+  },
+  {
+    "id": 6,
+    "name": "Samsung",
+    "location": "South Korea",
+    "industry": "Electronics",
+    "description": "Samsung manufactures smartphones, semiconductors, displays, appliances, and consumer electronics, combining large-scale hardware production with product design and R&D.",
+    "founded": 1938,
+    "employees": "260,000+",
+    "website": "https://www.samsung.com"
+  },
+  {
+    "id": 7,
+    "name": "Accenture",
+    "location": "Ireland",
+    "industry": "Consulting",
+    "description": "Accenture advises organizations on strategy, technology, operations, and digital transformation, often combining consulting with delivery and managed services.",
+    "founded": 1989,
+    "employees": "740,000+",
+    "website": "https://www.accenture.com"
+  },
+  {
+    "id": 8,
+    "name": "Microsoft",
+    "location": "USA",
+    "industry": "Tech",
+    "description": "Microsoft develops software, cloud services, developer tools, productivity products, business platforms, and AI offerings for consumers and enterprises.",
+    "founded": 1975,
+    "employees": "220,000+",
+    "website": "https://www.microsoft.com"
+  },
+  {
+    "id": 9,
+    "name": "Deloitte",
+    "location": "UK",
+    "industry": "Consulting",
+    "description": "Deloitte provides consulting, audit, risk, tax, and advisory services, helping large companies improve operations, compliance, finance, and digital capabilities.",
+    "founded": 1845,
+    "employees": "450,000+",
+    "website": "https://www.deloitte.com"
+  },
+  {
+    "id": 10,
+    "name": "Sony",
+    "location": "Japan",
+    "industry": "Electronics",
+    "description": "Sony works across entertainment, gaming, imaging, music, film, and electronics, with a portfolio that combines consumer products and content businesses.",
+    "founded": 1946,
+    "employees": "110,000+",
+    "website": "https://www.sony.com"
+  },
+  {
+    "id": 11,
+    "name": "Flipkart",
+    "location": "India",
+    "industry": "E-Commerce",
+    "description": "Flipkart runs a major online marketplace in India, supported by logistics, digital payments, merchandising, and category operations for large-scale retail.",
+    "founded": 2007,
+    "employees": "20,000+",
+    "website": "https://www.flipkart.com"
+  },
+  {
+    "id": 12,
+    "name": "Apple",
+    "location": "USA",
+    "industry": "Tech",
+    "description": "Apple designs consumer devices, operating systems, software, and services with a strong emphasis on hardware integration, product design, and ecosystem control.",
+    "founded": 1976,
+    "employees": "160,000+",
+    "website": "https://www.apple.com"
+  },
+  {
+    "id": 13,
+    "name": "Cognizant",
+    "location": "USA",
+    "industry": "IT Services",
+    "description": "Cognizant supports enterprise clients with application services, consulting, cloud, data, quality engineering, and domain-focused digital transformation programs.",
+    "founded": 1994,
+    "employees": "340,000+",
+    "website": "https://www.cognizant.com"
+  },
+  {
+    "id": 14,
+    "name": "IBM",
+    "location": "USA",
+    "industry": "Tech",
+    "description": "IBM serves businesses through enterprise software, infrastructure, consulting, automation, data, security, and long-standing research in computing systems.",
+    "founded": 1911,
+    "employees": "280,000+",
+    "website": "https://www.ibm.com"
+  },
+  {
+    "id": 15,
+    "name": "Siemens",
+    "location": "Germany",
+    "industry": "Engineering",
+    "description": "Siemens operates across industrial automation, mobility, infrastructure, healthcare technology, and software used in factories, utilities, and large public systems.",
+    "founded": 1847,
+    "employees": "320,000+",
+    "website": "https://www.siemens.com"
+  },
+  {
+    "id": 16,
+    "name": "Oracle",
+    "location": "USA",
+    "industry": "Tech",
+    "description": "Oracle delivers databases, enterprise applications, cloud infrastructure, and developer services for organizations running complex business and data workloads.",
+    "founded": 1977,
+    "employees": "160,000+",
+    "website": "https://www.oracle.com"
+  },
+  {
+    "id": 17,
+    "name": "HCL Technologies",
+    "location": "India",
+    "industry": "IT Services",
+    "description": "HCL Technologies works in engineering, cloud, infrastructure, software, and enterprise IT operations, often supporting large and distributed technology environments.",
+    "founded": 1991,
+    "employees": "220,000+",
+    "website": "https://www.hcltech.com"
+  },
+  {
+    "id": 18,
+    "name": "Toyota",
+    "location": "Japan",
+    "industry": "Automotive",
+    "description": "Toyota produces passenger vehicles, commercial vehicles, and mobility technologies, with deep capabilities in manufacturing systems and supply chain discipline.",
+    "founded": 1937,
+    "employees": "375,000+",
+    "website": "https://global.toyota"
+  },
+  {
+    "id": 19,
+    "name": "BMW",
+    "location": "Germany",
+    "industry": "Automotive",
+    "description": "BMW builds premium cars and motorcycles while investing in electric mobility, manufacturing quality, connected services, and performance engineering.",
+    "founded": 1916,
+    "employees": "150,000+",
+    "website": "https://www.bmw.com"
+  },
+  {
+    "id": 20,
+    "name": "Capgemini",
+    "location": "France",
+    "industry": "Consulting",
+    "description": "Capgemini combines consulting, systems integration, engineering, and business services to help organizations modernize platforms and improve operations.",
+    "founded": 1967,
+    "employees": "340,000+",
+    "website": "https://www.capgemini.com"
+  },
+  {
+    "id": 21,
+    "name": "Meta",
+    "location": "USA",
+    "industry": "Tech",
+    "description": "Meta develops social platforms, communication tools, ads technology, AI systems, and immersive computing products used by billions of people worldwide.",
+    "founded": 2004,
+    "employees": "70,000+",
+    "website": "https://about.meta.com"
+  },
+  {
+    "id": 22,
+    "name": "Tata Motors",
+    "location": "India",
+    "industry": "Automotive",
+    "description": "Tata Motors manufactures passenger and commercial vehicles and continues to expand in electric mobility, fleet products, and transportation engineering.",
+    "founded": 1945,
+    "employees": "80,000+",
+    "website": "https://www.tatamotors.com"
+  },
+  {
+    "id": 23,
+    "name": "SAP",
+    "location": "Germany",
+    "industry": "Tech",
+    "description": "SAP is known for enterprise software in finance, supply chain, HR, procurement, and business analytics used by large organizations worldwide.",
+    "founded": 1972,
+    "employees": "110,000+",
+    "website": "https://www.sap.com"
+  },
+  {
+    "id": 24,
+    "name": "Bosch",
+    "location": "Germany",
+    "industry": "Engineering",
+    "description": "Bosch works across automotive systems, industrial technology, consumer goods, and smart building products, with strong engineering and manufacturing depth.",
+    "founded": 1886,
+    "employees": "420,000+",
+    "website": "https://www.bosch.com"
+  },
+  {
+    "id": 25,
+    "name": "Salesforce",
+    "location": "USA",
+    "industry": "Tech",
+    "description": "Salesforce offers cloud software for CRM, service, marketing, analytics, and application development, supporting customer-facing teams across industries.",
+    "founded": 1999,
+    "employees": "70,000+",
+    "website": "https://www.salesforce.com"
+  },
+  {
+    "id": 26,
+    "name": "Mahindra",
+    "location": "India",
+    "industry": "Automotive",
+    "description": "Mahindra builds utility vehicles, farm equipment, and mobility solutions, supported by operations in manufacturing, engineering, and rural market distribution.",
+    "founded": 1945,
+    "employees": "260,000+",
+    "website": "https://www.mahindra.com"
+  },
+  {
+    "id": 27,
+    "name": "Adobe",
+    "location": "USA",
+    "industry": "Tech",
+    "description": "Adobe creates tools for design, imaging, video, document workflows, digital marketing, and content production for creative and enterprise teams.",
+    "founded": 1982,
+    "employees": "30,000+",
+    "website": "https://www.adobe.com"
+  },
+  {
+    "id": 28,
+    "name": "Tech Mahindra",
+    "location": "India",
+    "industry": "IT Services",
+    "description": "Tech Mahindra serves telecom, enterprise, and digital transformation programs with application services, networks, cloud, and business process support.",
+    "founded": 1986,
+    "employees": "150,000+",
+    "website": "https://www.techmahindra.com"
+  },
+  {
+    "id": 29,
+    "name": "Renault",
+    "location": "France",
+    "industry": "Automotive",
+    "description": "Renault develops passenger vehicles and mobility solutions while working on manufacturing efficiency, electric platforms, and automotive engineering programs.",
+    "founded": 1899,
+    "employees": "100,000+",
+    "website": "https://www.renaultgroup.com"
+  },
+  {
+    "id": 30,
+    "name": "LG Electronics",
+    "location": "South Korea",
+    "industry": "Electronics",
+    "description": "LG Electronics produces appliances, displays, entertainment systems, and business technology products with a broad global manufacturing and retail footprint.",
+    "founded": 1958,
+    "employees": "75,000+",
+    "website": "https://www.lg.com"
+  }
+]
