@@ -54,7 +54,44 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.page-numbers {
+  display: flex;
   gap: 8px;
-  margin-top: 32px;
-  flex-wrap: wrap;
+}
+
+.page-number {
+  min-width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.page-number:hover {
+  background: #f5f5f5;
+}
+
+.page-number.active {
+  background: #747476;
+  color: white;
+  border-color: #747476;
+}
+
+.page-btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+
+.page-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

@@ -84,31 +84,31 @@ function Home() {
             {totalPages > 1 && (
               <div className="pagination-bar">
                 <button
-                  className="btn btn-outline-primary btn-sm"
+                  className="page-btn"
                   disabled={currentPage === 1}
                   onClick={() => setCurrentPage((p) => p - 1)}
                 >
-                  Prev
+                  ‹ Prev
                 </button>
 
-                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-                  <button
-                    key={page}
-                    className={`btn btn-sm ${
-                      currentPage === page ? "btn-primary" : "btn-outline-secondary"
-                    }`}
-                    onClick={() => setCurrentPage(page)}
-                  >
-                    {page}
-                  </button>
-                ))}
+                <div className="page-numbers">
+                  {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                    <button
+                      key={page}
+                      className={`page-number ${currentPage === page ? "active" : ""}`}
+                      onClick={() => setCurrentPage(page)}
+                    >
+                      {page}
+                    </button>
+                  ))}
+                </div>
 
                 <button
-                  className="btn btn-outline-primary btn-sm"
+                  className="page-btn"
                   disabled={currentPage === totalPages}
                   onClick={() => setCurrentPage((p) => p + 1)}
                 >
-                  Next
+                  Next ›
                 </button>
               </div>
             )}
