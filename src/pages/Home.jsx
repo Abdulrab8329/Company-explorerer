@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import companiesData from "../data/companies.json";
 import CompanyCard from "../components/CompanyCard";
+import { FaGithub } from "react-icons/fa";
 import Filters from "../components/Filters";
 import "./Home.css";
 
@@ -47,10 +48,25 @@ function Home() {
   return (
     <div className="home-page">
       <div className="container">
-        <div className="page-header">
-          <h1 className="page-title">CompanyExplorer</h1>
-          <p className="page-subtitle">Explore top companies from around the world</p>
-        </div>
+
+<div className="page-header">
+  <div className="header-left">
+    <h1 className="page-title">CompanyExplorer</h1>
+    <p className="page-subtitle">
+      Explore top companies from around the world
+    </p>
+  </div>
+
+  <a
+  href="https://github.com/Abdulrab8329/Company-explorerer"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="github-link"
+>
+  <FaGithub size={20} />
+  <span>GitHub</span>
+</a>
+</div>
 
         <Filters
           search={search}

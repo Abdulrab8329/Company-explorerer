@@ -10,7 +10,32 @@
   background-color: #f8fafc;
   z-index: 100;
   padding: 10px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.github-link {
+  color: #1a202c;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.github-link:hover {
+  /* transform: scale(1.02); */
+}
+
 
 .page-title {
   font-size: 1.75rem;
