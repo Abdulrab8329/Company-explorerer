@@ -88,7 +88,7 @@ function Home() {
                   disabled={currentPage === 1}
                   onClick={() => setCurrentPage((p) => p - 1)}
                 >
-                  ‹ Prev
+                   Prev
                 </button>
 
                 <div className="page-numbers">
@@ -108,7 +108,7 @@ function Home() {
                   disabled={currentPage === totalPages}
                   onClick={() => setCurrentPage((p) => p + 1)}
                 >
-                  Next ›
+                  Next 
                 </button>
               </div>
             )}
